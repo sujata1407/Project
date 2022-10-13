@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Tours & Travel Agency</title>
+
+    <link
+  rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+
+	<link rel="stylesheet" type="text/css" href="style1.css">
+</head>
+<body>
+<!--header section start-->
+<header>
+
+    <div id="menu-bar" class="fas fa-bars"></div>
+
+    <a href="#" class="logo"><span>T</span>ravel</a>
+
+    <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#book">book</a>
+        <a href="#packages">packages</a>
+        <a href="#services">services</a>
+        <a href="#gallery">gallery</a>
+        <a href="#review">review</a>
+        <a href="#contact">contact</a>
+    </nav>
+
+    <div class="icons">
+        <i class="fas fa-search" id="search-btn"></i>
+        <i class="fas fa-user" id="login-btn"></i>
+    </div>
+
+    <form action="" class="search-bar-container">
+        <input type="search" id="search-bar" placeholder="search here....">
+        <label for="search-bar" class="fas fa-search"></label>
+    </form>
+</header>
+<!--header section end-->
+
+<!--login form container-->
+<div class="login-form-container">
+    <i class="fas fa-times" id="form-close"></i>
+    <form action="">
+        <h3>Login</h3>
+        <input type="email" class="box" placeholder="Enter your email">
+        <input type="password" class="box" placeholder="Enter your password">
+        <input type="submit" value="login now" class="btn">
+        <input type="checkbox" id="remember">
+        <label for="remember">remember me</label>
+        <p>forget password? <a href="#">click here</a></p>
+        <p>don't have an account? <a href="#">register now</a></p>
+    </form>
+</div>
+
+
+<!--home section starts-->
+
+<section class="home" id="home">
+    <div class="content">
+        <h3>adventure is worthwhile</h3>
+        <p>discover new places with us, adventure awaits</p>
+        <a href="#" class="btn">discover more</a>
+</div>
+
+    <div class="controls">
+        <span class="vid-btn active" data-src="https://assets.mixkit.co/videos/preview/mixkit-white-sand-beach-and-palm-trees-1564-large.mp4"></span>
+        <span class="vid-btn" data-src="https://assets.mixkit.co/videos/preview/mixkit-countryside-meadow-4075-large.mp4"></span>
+        <span class="vid-btn" data-src="https://assets.mixkit.co/videos/preview/mixkit-huge-trees-in-a-large-green-forest-5040-large.mp4"></span>
+        <span class="vid-btn" data-src="https://assets.mixkit.co/videos/preview/mixkit-waterfall-in-forest-2213-large.mp4"></span>
+        <span class="vid-btn" data-src="https://assets.mixkit.co/videos/preview/mixkit-going-down-a-curved-highway-down-a-mountain-41576-large.mp4"></span>
+    </div>
+
+    <div class="video-continer-fluid">
+
+        <video src="https://assets.mixkit.co/videos/preview/mixkit-white-sand-beach-and-palm-trees-1564-large.mp4" id="video-slider" loop autoplay muted></video>
+        
+    </div>
+</section>
+
+<!--home section ends-->
+
+<!--book section start-->
+<section class="book" id="book">
+    <h1 class="heading">
+        <span>b</span>
+        <span>o</span>
+        <span>o</span>
+        <span>k</span>
+        <span class="space"></span>
+        <span>n</span>
+        <span>o</span>
+        <span>w</span>
+    </h1>
+
+    <div class="row">
+    <div class="image">
+        <img src="https://cdni.iconscout.com/illustration/premium/thumb/medical-tourism-4563342-3784183.png" alt="">
+    </div>
+
+    <form action="">
+        <div class="inputBox">
+            <h3>where to</h3>
+            <input type="text" placeholder="place name..">
+        </div>
+        <div class="inputBox">
+            <h3>how many</h3>
+            <input type="number" placeholder="number of guests">
+        </div>
+        <div class="inputBox">
+            <h3>arrivals</h3>
+            <input type="date">
+        </div>
+        <div class="inputBox">
+            <h3>leaving</h3>
+            <input type="date">
+        </div>
+        <input type="submit" class="btn" value="book now">
+    </form>
+    </div>
+</section>
+<!--book section ends-->
+
+<!--packages section starts-->
+<section class="packages" id="packages">
+    <h1 class="heading">
+        <span>p</span>
+        <span>a</span>
+        <span>c</span>
+        <span>k</span>
+        <span>a</span>
+        <span>g</span>
+        <span>e</span>
+        <span>s</span>
+    </h1>  
+
+    <div class="box-container">
+        <div class="box">
+            <img src="https://wallpaperaccess.com/full/4850843.jpg"  alt="">
+            <div class="content">
+                <h3><i class="fas fa-map-marker-alt"></i> mumbai </h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque, fugiat numquam.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> $90.00 <span>$120.00</span> </div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+
+        <div class="box-container">
+            <div class="box">
+                <img src="https://wallpapercave.com/wp/rwaACQs.jpg"  alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i> sydney </h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque, fugiat numquam.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price"> $90.00 <span>$120.00</span> </div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+        </div>
+
+            <div class="box-container">
+                <div class="box">
+                    <img src="https://www.wallpapers13.com/wp-content/uploads/2016/07/Hawaii-city-beach-Desktop-Wallpaper-%D0%A5%D0%94-2560x1440-1920x1200.jpg"  alt="">
+                    <div class="content">
+                        <h3><i class="fas fa-map-marker-alt"></i> Hawaii </h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque, fugiat numquam.</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                        <div class="price"> $90.00 <span>$120.00</span> </div>
+                        <a href="#" class="btn">book now</a>
+                    </div>
+                </div>
+            </div>
+
+                <div class="box-container">
+                    <div class="box">
+                        <img src="https://wallpaperaccess.com/full/19066.jpg" alt="">
+                        <div class="content">
+                            <h3><i class="fas fa-map-marker-alt"></i> tokyo </h3>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque, fugiat numquam.</p>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                            <div class="price"> $90.00 <span>$120.00</span> </div>
+                            <a href="#" class="btn">book now</a>
+                        </div>
+                    </div>
+
+                    <div class="box-container">
+                        <div class="box">
+                            <img src="https://wallpaperaccess.com/full/850243.jpg"  alt="">
+                            <div class="content">
+                                <h3><i class="fas fa-map-marker-alt"></i> paris </h3>
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque, fugiat numquam.</p>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </div>
+                                <div class="price"> $90.00 <span>$120.00</span> </div>
+                                <a href="#" class="btn">book now</a>
+                            </div>
+                        </div>
+
+                        <div class="box-container">
+                            <div class="box">
+                                <img src="https://m.economictimes.com/thumb/msid-58084960,width-1200,height-900,resizemode-4,imgsize-133701/how-egypt-offers-a-captivating-canvas-of-the-past-and-the-present.jpg"  alt="">
+                                <div class="content">
+                                    <h3><i class="fas fa-map-marker-alt"></i> eypt </h3>
+                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque, fugiat numquam.</p>
+                                    <div class="stars">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                    </div>
+                                    <div class="price"> $90.00 <span>$120.00</span> </div>
+                                    <a href="#" class="btn">book now</a>
+                                </div>
+                            </div>
+    </div>
+</section>
+<!--packages section ends-->
+
+<!--service section start-->
+<section class="services" id="services">
+    <h1 class="heading">
+        <span>s</span>
+        <span>e</span>
+        <span>r</span>
+        <span>v</span>
+        <span>i</span>
+        <span>c</span>
+        <span>e</span>
+        <span>s</span>
+    </h1> 
+
+    <div class="box-container">
+        <div class="box">
+            <i class="fas fa-hotel"></i>
+            <h3>affordable hotels</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat praesentium error molestiae repudiandae corporis voluptate mollitia!</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-utensils"></i>
+            <h3>food and drinks</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat praesentium error molestiae repudiandae corporis voluptate mollitia!</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-bullhorn"></i>
+            <h3>safty guide</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat praesentium error molestiae repudiandae corporis voluptate mollitia!</p>
+        </div>
+    </div>
+    <div class="box-container">
+        <div class="box">
+            <i class="fas fa-globe-asia"></i>
+            <h3>around the world</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat praesentium error molestiae repudiandae corporis voluptate mollitia!</p>
+            </div>
+        <div class="box">
+            <i class="fas fa-plane"></i>
+            <h3>fastest travel</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat praesentium error molestiae repudiandae corporis voluptate mollitia!</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-hiking"></i>
+            <h3>adventures</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat praesentium error molestiae repudiandae corporis voluptate mollitia!</p>
+        </div>
+    </div>
+    </div>
+</section>
+<!--service section ends-->
+
+<!--Gallery section start-->
+<section class="gallery" id="gallery">
+    <h1 class="heading">
+        <span>g</span>
+        <span>a</span>
+        <span>l</span>
+        <span>l</span>
+        <span>e</span>
+        <span>r</span>
+        <span>y</span> 
+    </h1>
+    <div class="box-container">
+        <div class="box">
+            <img src="https://media.istockphoto.com/photos/woman-tourist-is-sightseeing-at-batu-caves-in-kuala-lumpur-malaysia-picture-id1166259852?k=20&m=1166259852&s=612x612&w=0&h=qkjuZE88GtqZmRZgOtoJOLxMfO2H1zv4T67SUs-2iHk=" alt="">
+            <div class="content">
+                <h3>amazing places</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates consequuntur, rem illo quis id quidem</p>
+                <a href="#" class="btn">See More</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="https://www.holidify.com/images/cmsuploads/compressed/183128172_80e060c6cf_z_20190718114549.jpg" alt="">
+            <div class="content">
+                <h3>amazing places</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates consequuntur, rem illo quis id quidem</p>
+                <a href="#" class="btn">See More</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0c/b2/79/37/solang-valley-manali.jpg?w=500&h=400&s=1" alt="">
+            <div class="content">
+                <h3>amazing places</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates consequuntur, rem illo quis id quidem</p>
+                <a href="#" class="btn">See More</a>
+            </div>
+        </div>
+
+
+        <div class="box">
+            <img src="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,f_auto,fl_progressive.strip_profile,g_auto,h_600,q_auto,w_auto/v1/filestore/o2ezyc9ksplb6r1ovz7uatq24ex6_1582893474_shutterstock_1039344904.jpg" alt="">
+            <div class="content">
+                <h3>amazing places</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates consequuntur, rem illo quis id quidem</p>
+                <a href="#" class="btn">See More</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="https://www.fabhotels.com/blog/wp-content/uploads/2019/03/Ramoji-Film-City.jpg" alt="">
+            <div class="content">
+                <h3>amazing places</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates consequuntur, rem illo quis id quidem</p>
+                <a href="#" class="btn">See More</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="https://assets.traveltriangle.com/blog/wp-content/uploads/2015/10/gardens-by-the-bay-image.jpg" alt="">
+            <div class="content">
+                <h3>amazing places</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates consequuntur, rem illo quis id quidem</p>
+                <a href="#" class="btn">See More</a>
+            </div>
+        </div>
+
+
+        <div class="box">
+            <img src="https://www.holidify.com/images/bgImages/SINGAPORE.jpg" alt="">
+            <div class="content">
+                <h3>amazing places</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates consequuntur, rem illo quis id quidem</p>
+                <a href="#" class="btn">See More</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="https://imgcld.yatra.com/ytimages/image/upload/v1473154691/Koh_Samui_Overview.jpg" alt="">
+            <div class="content">
+                <h3>amazing places</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates consequuntur, rem illo quis id quidem</p>
+                <a href="#" class="btn">See More</a>
+            </div>
+        </div>
+
+        
+        <div class="box">
+            <img src="https://media.istockphoto.com/photos/aerial-view-of-dubai-palm-jumeirah-island-united-arab-emirates-picture-id1097789900?b=1&k=20&m=1097789900&s=170667a&w=0&h=DzP-For1edDoAANGm_-YwbKmxPTZq_PbzXlH0sZKDKE=" alt="">
+            <div class="content">
+                <h3>amazing places</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates consequuntur, rem illo quis id quidem</p>
+                <a href="#" class="btn">See More</a>
+            </div>
+        </div>
+
+        
+        <div class="box">
+            <img src="https://media.istockphoto.com/photos/dubai-marina-picture-id467829216?b=1&k=20&m=467829216&s=170667a&w=0&h=axrdEjmP9M3aUtuc-HKs5KIuQ-h02rz8xQKCkWiWpRI=" alt="">
+            <div class="content">
+                <h3>amazing places</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates consequuntur, rem illo quis id quidem</p>
+                <a href="#" class="btn">See More</a>
+            </div>
+        </div>
+
+        
+        <div class="box">
+            <img src="https://media.istockphoto.com/photos/taj-mahal-hotel-and-gateway-of-india-picture-id539018660?k=20&m=539018660&s=612x612&w=0&h=bkeZQaQ1xyHZxrOM7Wwujj7gcKzVMt7FlKiILC3QyhI=" alt="">
+            <div class="content">
+                <h3>amazing places</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates consequuntur, rem illo quis id quidem</p>
+                <a href="#" class="btn">See More</a>
+            </div>
+        </div>
+
+        
+        <div class="box">
+            <img src="https://cdn.holidaytravel.co/uploaded_files/destination_img/2016_55580b56239800ashimla-qpr.jpg" alt="">
+            <div class="content">
+                <h3>amazing places</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates consequuntur, rem illo quis id quidem</p>
+                <a href="#" class="btn">See More</a>
+            </div>
+        </div>
+
+    </div>
+</section>
+<!--Gallery section end-->
+
+<!--review section start-->
+<section class="review" id="review">
+    <h1 class="heading">
+        <span>r</span>
+        <span>e</span>
+        <span>v</span>
+        <span>i</span>
+        <span>e</span>
+        <span>w</span>
+    </h1>
+
+    <div class="swiper review-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="http://demo.solwininfotech.com/wordpress/justica/wp-content/uploads/2016/07/Attorneys-5.png" alt="">
+                    <h3>jhon deo</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam eos corrupti exercitationem esse, harum nulla tenetur mollitia aut vel repellendus odio corporis optio sequi temporibus similique, eveniet earum? Voluptas, deleniti.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="https://worldywcacouncil.org/wp-content/uploads/2014/10/speaker-2-v2-300x300.jpg" alt="">
+                    <h3>jhon deo</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam eos corrupti exercitationem esse, harum nulla tenetur mollitia aut vel repellendus odio corporis optio sequi temporibus similique, eveniet earum? Voluptas, deleniti.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="https://franchisematch.com/wp-content/uploads/2015/02/john-doe.jpg" alt="">
+                    <h3>jhon deo</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam eos corrupti exercitationem esse, harum nulla tenetur mollitia aut vel repellendus odio corporis optio sequi temporibus similique, eveniet earum? Voluptas, deleniti.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="https://salondesmaires-gard.com/wp-content/uploads/2015/04/speaker-1-v2-300x300.jpg" alt="">
+                    <h3>jhon deo</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam eos corrupti exercitationem esse, harum nulla tenetur mollitia aut vel repellendus odio corporis optio sequi temporibus similique, eveniet earum? Voluptas, deleniti.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>   
+        </div>
+        <!--<div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>-->
+    </div>
+</section>
+<!--review section ends-->
+
+<!--contact section starts-->
+<section class="contact" id="contact">
+    <h1 class="heading">
+        <span>c</span>
+        <span>o</span>
+        <span>n</span>
+        <span>t</span>
+        <span>a</span>
+        <span>c</span>
+        <span>t</span>
+    </h1>
+
+    <div class="row">
+
+        <div class="image">
+            <img src="https://kit8.net/wp-content/uploads/edd/2022/01/TRVL_around_the_planet_preview.jpg" alt="">
+        </div>
+
+        <form action="">
+            <div class="inputBox">
+                <input type="text" placeholder="name">
+                <input type="email" placeholder="email">
+            </div>
+            <div class="inputBox">
+                <input type="number" placeholder="number">
+                <input type="text" placeholder="subject">
+            </div>
+            <textarea placeholder="message" name="" id="" cols="30" rows="10"></textarea>
+            <input type="submit" class="btn" value="send message">
+        </form>
+    </div>
+</section>
+<!--contact section ends-->
+
+<!--brand section start-->
+<section class="brand-container">
+    <div class="swiper brand-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="https://img.freepik.com/free-vector/summer-beach-logo-template_441059-37.jpg" style="height: 200px;width:100%;float:left;" alt=""></div>
+            <div class="swiper-slide"><img src="https://images.megapixl.com/2549/25491477.jpg" style="height: 200px;width:100%;float:left;border-radius:50%;" alt=""></div>
+            <div class="swiper-slide"><img src="https://png.pngtree.com/png-clipart/20200727/original/pngtree-restaurant-logo-design-vector-template-png-image_5441058.jpg" style="height: 200px;width:100%;float:left;border-radius:50%;" alt=""></div>
+            <div class="swiper-slide"><img src="https://cdn3.vectorstock.com/i/1000x1000/73/07/cooking-and-restaurant-logo-design-vector-29707307.jpg" style="height: 200px;width:100%;float:left;border-radius:50%;" alt=""></div>
+            <div class="swiper-slide"><img src="https://image.shutterstock.com/z/stock-vector-travel-tour-logo-design-1302584098.jpg" style="height: 200px;width:100%;float:left;" alt=""></div>
+            <div class="swiper-slide"><img src="https://i.pinimg.com/originals/6b/44/0c/6b440cf28fce424b7f1e195678dab6d2.jpg" style="height: 200px;width:100%;float:left;" alt=""></div>
+        </div>
+    </div>
+</section>
+<!--brand section end-->
+
+<!--footer section start-->
+<section class="footer">
+    <div class="box-container">
+
+        <div class="box">
+            <h3>about us</h3>
+            <p>A travel agency is a private retailer or public service that provides travel and tourism-related services to the general public on behalf of accommodation or travel suppliers to offer different kinds of travelling packages for each destination. Travel agencies can provide outdoor recreation activities, airlines, car rentals, cruise lines, hotels, railways, travel insurance, package tours, insurance, guide books, VIP airport lounge access, arranging logistics for luggage and medical items delivery for travellers upon request, public transport timetables, car rentals, and bureau de change services. Travel agencies can also serve as general sales agents for airlines that do not have offices in a specific region. A travel agency's main function is to act as an agent, selling travel products and services on behalf of a supplier. They are also called Travel Advisors. They do not keep inventory in-hand unless they have pre-booked hotel rooms or cabins on a cruise ship for a group travel event such as a wedding, honeymoon, or other group event.</p>
+        </div>
+        <div class="box">
+            <h3>branch locations</h3>
+           <a href="#">india</a>
+           <a href="#">USA</a>
+           <a href="#">japan</a>
+           <a href="#">france</a>
+        </div>
+        <div class="box">
+            <h3>quick links</h3>
+           <a href="#home">home</a>
+           <a href="#book">book</a>
+           <a href="#packages">packages</a>
+           <a href="#services">services</a>
+           <a href="#gallery">gallery</a>
+           <a href="#review">review</a>
+           <a href="#contact">contact</a>
+        </div>
+        <div class="box">
+            <h3>follow us</h3>
+           <a href="#">facebook</a>
+           <a href="#">instagram</a>
+           <a href="#">twitter</a>
+           <a href="#">linkedin</a>
+        </div>
+    </div>
+
+    <h1 class="credit"> created by <span> ms. Suj@ta Raskar </span> | all right reserved </h1>
+
+</section>
+<!--footer section end-->
+
+<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+<!--script-->
+<script src="https://kit.fontawesome.com/ac5e266361.js" crossorigin="anonymous"></script>
+<script src="script1.js"></script>
+</body>
+</html>
